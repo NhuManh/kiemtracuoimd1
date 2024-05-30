@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sổ Tiết Kiệm</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+<h2>Bảng Thông Tin Sổ Tiết Kiệm</h2>
+<table>
+    <tr>
+        <th>Mã Sổ</th>
+        <th>Loại Tiết Kiệm</th>
+        <th>Họ Tên Khách Hàng</th>
+        <th>Chứng Minh Nhân Dân</th>
+        <th>Ngày Mở Sổ</th>
+        <th>Số Tiền Gửi</th>
+    </tr>
+    <tr>
+        <td>12345</td>
+        <td>TietKiemTietKiem</td>
+        <td>Nguyen Van A</td>
+        <td>123456789</td>
+        <td>01/01/2024</td>
+        <td>1000000</td>
+    </tr>
+</table>
+<script>
+    class SOTIETKIEM {
+        constructor(maSo, loaiTietKiem, hoTen, cmnd, ngayMoSo, soTienGui) {
+            this.maSo = maSo;
+            this.loaiTietKiem = loaiTietKiem;
+            this.hoTen = hoTen;
+            this.cmnd = cmnd;
+            this.ngayMoSo = ngayMoSo;
+            this.soTienGui = soTienGui;
+        }
+    }
+
+</script>
+</body>
+</html>

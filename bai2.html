@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function input () {
+        let tu1 = +prompt("nhập tử phân số 1");
+        let tu2 = +prompt("nhập tử phân số 2");
+        let mau1 = +prompt("nhập mẫu phân số 1 ");
+        let mau2 = +prompt("nhập mẫu phân số 2");
+        return {tu1, tu2, mau1, mau2};
+    }
+    let inputNum = input();
+    function check(tu1, tu2, mau1, mau2) {
+        return tu1 * mau2 === tu2 * mau1;
+    }
+    let result = check(inputNum.tu1, inputNum.tu2, inputNum.mau1,inputNum.mau2);
+    if (result){
+        alert("bằng nhau");
+    }else{
+        alert("không bằng nhau");
+    }
+</script>
+</body>
+</html>
